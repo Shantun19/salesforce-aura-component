@@ -1,0 +1,42 @@
+<aura:component>
+    <!-- 
+    what is salesforce lightning ?
+        - earlier salesforce uses classic enviroment but now a days salesforce starts using lightning experience. to build any UI component inside the lightning exviroment that component will known as lightning web component.
+        - the component which is build using the lightning framework can be re-used by other developers over the salesforce application.
+    
+    why use aura component programming model ?
+        = salesforce aura component provide out of the box component.
+        - salesforce aura component implement event-driven architecture.
+        - also has a fast development.  
+    
+    salesforce lightning web component(LWC) and salesforce aura component comes under the salesforce lightning framework.
+
+    Events
+        - we need to write the handlers that respond to interface events as they occur.
+        - there are 2 types of event in the framework.
+            - application event
+            - component - event
+    
+    lightning component 
+        - build on top of aura
+        - salesforce specifics extensions
+    
+    aura component 
+        - open source framework
+
+    aura lightning componet bundle 
+        - client
+            - component : here we write our markup code or design the view.
+            - controller : its a javascript file(.js extension) that helps to implement the javascript logic. its is a client side controller helps to handle the event in the component.
+            - helper : its a javascript file(.js extension) that helps to implement the javascript logic. this file contains JS functions that can ba called from any javascript code in a components bundle.
+            - style : it is use to design the component.
+            - Design : required for components used in lightning app builder or lightning app pages.
+            - Documentation : description about your component.
+            - SVG : custom icon resources for component
+            - Renderer : it is also an js file used for rendering to override default rendering for a component.
+        - server
+            - apex controller
+            - database
+
+    -->
+</aura:component>
