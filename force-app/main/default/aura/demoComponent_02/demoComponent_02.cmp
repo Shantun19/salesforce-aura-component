@@ -1,0 +1,4 @@
+<aura:component>
+    <!-- to render an aura component or to display an aura component we need to create an lightning application application where we use our aura compoanent -->
+    <p>this is the first aura component</p>
+</aura:component>
